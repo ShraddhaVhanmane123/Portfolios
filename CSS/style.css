@@ -744,7 +744,7 @@ a.btn:hover::before{
     display: grid;
     grid-template-columns: repeat(3,1fr);
     align-items: center;
-    gap: 2.5rem;
+    gap: 2.2rem;
 }
 .project-box{
     border-radius: 15px;
@@ -785,7 +785,7 @@ a.btn:hover::before{
     align-items: center;
     flex-direction: column;
     text-align: center;
-    padding: 0 4rem;
+    padding: 0 2rem;
     transform: translateY(100%);
     transition: .5s ease;
     color: black;
@@ -795,8 +795,8 @@ a.btn:hover::before{
     justify-content: center;
     align-items: center;
     display: inline-flex;
-    width: 5rem;
-    height:5rem;
+    width: 4rem;
+    height:4rem;
     background: var(--text-color);
     border-radius: 50%;
     
@@ -821,47 +821,7 @@ a.btn:hover::before{
     margin: .3rem 0 1rem;
 }
 /* Contact section css */
-/* .contact h2{
-    margin-bottom: 3rem;
-}
 
-.contact form{
-    max-width: 70rem;
-    margin: 1rem auto;
-    text-align: center;
-    margin-bottom: 3rem;
-}
-
-.contact form .input-box{
-    display: flex;
-    justify-content: space-between;
-    flex-wrap: wrap;
-}
-
-.contact form .input-box input,
-.contact form textarea
-{
-    width: 100%;
-    padding: 1.5rem;
-    font-size: 1.6rem;
-    color: var(--text-color);
-    background: var(--second-bg-color);
-    border-radius: .8rem;
-    margin: .7rem 0;
-}
-
-.contact form .input-box input{
-    width: 49%;
-}
-
-.contact form textarea{
-    resize: none;
-}
-
-.contact form .btn{
-    margin-top: 2rem;
-    cursor: pointer;
-} */
 .contact {
     padding: 50px 10%;
     background: var(--bg-color);
@@ -903,10 +863,6 @@ textarea {
     transition: background 0.3s;
     font-size: 16px;
 }
-
-/* .btn:hover {
-    background-color: #ff1e4e;
-} */
 
 
 
@@ -1090,6 +1046,7 @@ textarea {
 }
     .project-container{
         display: block;
+	    margin-top:2%;
     }
     
 }
