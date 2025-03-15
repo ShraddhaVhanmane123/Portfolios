@@ -572,7 +572,7 @@ a.btn:hover::before{
 
 .box{
     position: relative;
-    margin: 10px 0;
+    margin: 0 0;
     flex:1 1 15rem
 }
 
