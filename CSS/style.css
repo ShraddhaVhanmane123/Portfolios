@@ -436,6 +436,14 @@ a.btn:hover::before{
     column-gap: 50px;
 }
 
+.skills h2{
+    text-align: center;
+    font-size: var(--h2-font);
+    color: var(--main-color);
+    margin-bottom: 1.5rem;
+    text-transform: uppercase;
+}
+
 .skill-bar{
     margin-bottom: 2.3rem;
 }
@@ -446,11 +454,14 @@ a.btn:hover::before{
     text-align: center;
 }
 
+
+
 .skill-left .skill-bar .info{
     display: flex;
     justify-content: space-between;
     align-items: center;
     padding: 0 10px;
+    margin-bottom: 5px;
 }
 .skill-left .skill-bar .bar{
     width: 100%;
@@ -512,58 +523,33 @@ a.btn:hover::before{
 }
 
 @keyframes html{
-    0%{
-        width: 0%;
-    }
-    100%{
-        width: 72%;
-    }
+    0% { width: 0; }
+    100% { width: 90%; }
 }
 
-
 @keyframes css{
-    0%{
-        width: 0%;
-    }
-    100%{
-        width: 85%;
-    }
+    0% { width: 0; }
+    100% { width: 85%; }
 }
 
 @keyframes bootstrap{
-    0%{
-        width: 0%;
-    }
-    100%{
-        width: 90%;
-    }
+    0% { width: 0; }
+    100% { width: 85%; }
 }
 
 @keyframes js{
-    0%{
-        width: 0%;
-    }
-    100%{
-        width: 75%;
-    }
+    0% { width: 0; }
+    100% { width: 80%; }
 }
 
 @keyframes react{
-    0%{
-        width: 0%;
-    }
-    100%{
-        width: 80%;
-    }
+    0% { width: 0; }
+    100% { width: 80%; }
 }
 
 @keyframes jquery{
-    0%{
-        width: 0%;
-    }
-    100%{
-        width: 95%;
-    }
+    0% { width: 0; }
+    100% { width: 75%; }
 }
 
 @keyframes slideAnimation {
