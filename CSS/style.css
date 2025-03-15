@@ -587,7 +587,7 @@ a.btn:hover::before{
     letter-spacing: 1px;
     position: absolute;
     top: 40%;
-    left: 20%;
+    left: 10%;
     transform: (translate(-50%,-50%));
 }
 .box .text small{
