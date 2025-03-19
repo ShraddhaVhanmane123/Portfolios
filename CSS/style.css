@@ -1096,10 +1096,10 @@ textarea {
         display: block;
     }
 
-	.education{
+	#education{
 		margin-top:5%;
 	}
-	.experience{
+	.experience h2{
 		margin-top:5%;
 }
     
