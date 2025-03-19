@@ -1095,5 +1095,12 @@ textarea {
     .project-container{
         display: block;
     }
+
+	.education{
+		margin-top:5%;
+	}
+	.experience{
+		margin-top:5%;
+}
     
 }
