@@ -355,7 +355,9 @@ a.btn:hover::before{
 
 
 /* education section css */
-
+#education{
+	margin-top:5%;
+}
 .timeline-section{
 	background-color: #24292d;
 	min-height: 100vh;
@@ -648,6 +650,7 @@ a.btn:hover::before{
 .experience {
     padding: 50px 0;
     background-color: var(--bg-color);
+	margin-top:5%;
 }
 
 .content-inner {
@@ -825,47 +828,7 @@ a.btn:hover::before{
     margin: .3rem 0 1rem;
 }
 /* Contact section css */
-/* .contact h2{
-    margin-bottom: 3rem;
-}
 
-.contact form{
-    max-width: 70rem;
-    margin: 1rem auto;
-    text-align: center;
-    margin-bottom: 3rem;
-}
-
-.contact form .input-box{
-    display: flex;
-    justify-content: space-between;
-    flex-wrap: wrap;
-}
-
-.contact form .input-box input,
-.contact form textarea
-{
-    width: 100%;
-    padding: 1.5rem;
-    font-size: 1.6rem;
-    color: var(--text-color);
-    background: var(--second-bg-color);
-    border-radius: .8rem;
-    margin: .7rem 0;
-}
-
-.contact form .input-box input{
-    width: 49%;
-}
-
-.contact form textarea{
-    resize: none;
-}
-
-.contact form .btn{
-    margin-top: 2rem;
-    cursor: pointer;
-} */
 .contact {
     padding: 50px 10%;
     background: var(--bg-color);
