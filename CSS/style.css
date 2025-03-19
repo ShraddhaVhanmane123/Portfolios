@@ -436,14 +436,6 @@ a.btn:hover::before{
     column-gap: 50px;
 }
 
-.skills h2{
-    text-align: center;
-    font-size: var(--h2-font);
-    color: var(--main-color);
-    margin-bottom: 1.5rem;
-    text-transform: uppercase;
-}
-
 .skill-bar{
     margin-bottom: 2.3rem;
 }
@@ -454,14 +446,11 @@ a.btn:hover::before{
     text-align: center;
 }
 
-
-
 .skill-left .skill-bar .info{
     display: flex;
     justify-content: space-between;
     align-items: center;
     padding: 0 10px;
-    margin-bottom: 5px;
 }
 .skill-left .skill-bar .bar{
     width: 100%;
@@ -523,33 +512,58 @@ a.btn:hover::before{
 }
 
 @keyframes html{
-    0% { width: 0; }
-    100% { width: 90%; }
+    0%{
+        width: 0%;
+    }
+    100%{
+        width: 72%;
+    }
 }
 
+
 @keyframes css{
-    0% { width: 0; }
-    100% { width: 85%; }
+    0%{
+        width: 0%;
+    }
+    100%{
+        width: 85%;
+    }
 }
 
 @keyframes bootstrap{
-    0% { width: 0; }
-    100% { width: 85%; }
+    0%{
+        width: 0%;
+    }
+    100%{
+        width: 90%;
+    }
 }
 
 @keyframes js{
-    0% { width: 0; }
-    100% { width: 80%; }
+    0%{
+        width: 0%;
+    }
+    100%{
+        width: 75%;
+    }
 }
 
 @keyframes react{
-    0% { width: 0; }
-    100% { width: 80%; }
+    0%{
+        width: 0%;
+    }
+    100%{
+        width: 80%;
+    }
 }
 
 @keyframes jquery{
-    0% { width: 0; }
-    100% { width: 75%; }
+    0%{
+        width: 0%;
+    }
+    100%{
+        width: 95%;
+    }
 }
 
 @keyframes slideAnimation {
@@ -572,12 +586,13 @@ a.btn:hover::before{
 
 .box{
     position: relative;
-    margin: 0 0;
+    margin: 10px 0;
     flex:1 1 15rem
 }
 
 .box .text{
     text-align: center;
+    /* border: 1px solid red; */
     color: #fff;
     font-size: 1rem;
 }
@@ -586,8 +601,10 @@ a.btn:hover::before{
     font: 400;
     letter-spacing: 1px;
     position: absolute;
-    top: 40%;
-	right:80%
+    /* background: red; */
+    margin: 0 auto;
+    top: 35%;
+    right: 43%;
     transform: (translate(-50%,-50%));
 }
 .box .text small{
@@ -735,6 +752,7 @@ a.btn:hover::before{
 .project-box{
     border-radius: 15px;
     overflow: hidden;
+    margin-bottom: 20px;
     background: #1f242d;
     display: flex;
     grid-template-rows: 1fr auto;
@@ -807,7 +825,47 @@ a.btn:hover::before{
     margin: .3rem 0 1rem;
 }
 /* Contact section css */
+/* .contact h2{
+    margin-bottom: 3rem;
+}
 
+.contact form{
+    max-width: 70rem;
+    margin: 1rem auto;
+    text-align: center;
+    margin-bottom: 3rem;
+}
+
+.contact form .input-box{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.contact form .input-box input,
+.contact form textarea
+{
+    width: 100%;
+    padding: 1.5rem;
+    font-size: 1.6rem;
+    color: var(--text-color);
+    background: var(--second-bg-color);
+    border-radius: .8rem;
+    margin: .7rem 0;
+}
+
+.contact form .input-box input{
+    width: 49%;
+}
+
+.contact form textarea{
+    resize: none;
+}
+
+.contact form .btn{
+    margin-top: 2rem;
+    cursor: pointer;
+} */
 .contact {
     padding: 50px 10%;
     background: var(--bg-color);
