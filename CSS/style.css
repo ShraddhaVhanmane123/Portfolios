@@ -355,9 +355,7 @@ a.btn:hover::before{
 
 
 /* education section css */
-#education{
-	margin-top:5%;
-}
+
 .timeline-section{
 	background-color: #24292d;
 	min-height: 100vh;
@@ -650,7 +648,6 @@ a.btn:hover::before{
 .experience {
     padding: 50px 0;
     background-color: var(--bg-color);
-	margin-top:5%;
 }
 
 .content-inner {
