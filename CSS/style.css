@@ -474,13 +474,13 @@ a.btn:hover::before{
 
 .skill-bar .bar .html
 {
-    width: 72%;
+    width: 98%;
     animation: html 2s;
 }
 
 .skill-bar .bar .css
 {
-    width: 85%;
+    width: 95%;
     animation: css 4s;
 }
 
@@ -493,7 +493,7 @@ a.btn:hover::before{
 
 .skill-bar .bar .js
 {
-    width: 75%;
+    width: 80%;
     animation: js 2s;
 }
 
@@ -511,12 +511,24 @@ a.btn:hover::before{
     animation: jquery 3s;
 }
 
+.skill-bar .bar .mysql
+{
+    width: 90%;
+    animation: jquery 3s;
+}
+
+.skill-bar .bar .ajava
+{
+    width: 90%;
+    animation: jquery 3s;
+}
+
 @keyframes html{
     0%{
         width: 0%;
     }
     100%{
-        width: 72%;
+        width: 98%;
     }
 }
 
@@ -526,7 +538,7 @@ a.btn:hover::before{
         width: 0%;
     }
     100%{
-        width: 85%;
+        width: 95%;
     }
 }
 
@@ -544,7 +556,7 @@ a.btn:hover::before{
         width: 0%;
     }
     100%{
-        width: 75%;
+        width: 80%;
     }
 }
 
@@ -563,6 +575,23 @@ a.btn:hover::before{
     }
     100%{
         width: 95%;
+    }
+}
+
+@keyframes mysql{
+    0%{
+        width: 0%;
+    }
+    100%{
+        width: 90%;
+    }
+}
+@keyframes ajava{
+    0%{
+        width: 0%;
+    }
+    100%{
+        width: 90%;
     }
 }
 
